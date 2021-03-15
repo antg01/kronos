@@ -6,6 +6,7 @@ import logo from "../assets/kronos-logo2.png";
 class ResultPage extends Component {
   render() {
     console.log(this.props.data);
+    // console.log("e");
     return (
       <div>
         <img src={logo} className="result-logo" alt="logo" width="300px" />
